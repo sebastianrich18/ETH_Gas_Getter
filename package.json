@@ -1,0 +1,17 @@
+{
+  "name": "gas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ens": "^0.0.1",
+    "https": "^1.0.0",
+    "prompt-sync": "^4.1.6",
+    "web3": "^1.6.0"
+  }
+}
