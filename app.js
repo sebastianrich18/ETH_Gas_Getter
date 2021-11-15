@@ -19,7 +19,6 @@ if (addr.includes(".eth")) { // if has .eth
 }
 
 function getENS(addr) {
-    console.log("getting ens")
     ens.getAddress(addr)
         .then(address => { getTx(address) })
 }
